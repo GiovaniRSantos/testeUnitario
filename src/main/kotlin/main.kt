@@ -25,7 +25,10 @@ fun TestException() {
 
 }
 
-fun main() {
-    contXO("xxoo")
-    contXO("xxxo")
+fun olderAge(age: Int): Boolean {
+    if (age < 18) {
+        return false
+    } else {
+        return true
+    }
 }

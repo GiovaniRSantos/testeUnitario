@@ -34,9 +34,17 @@ class MainTest {
     }
 
     @Test
+    @DisplayName("Test If Else")
+    fun testIfElse() {
+        Assertions.assertTrue(olderAge(19))
+        Assertions.assertFalse(olderAge(17))
+    }
+
+    @Test
     @DisplayName("Test fail")
     fun failTest() {
         fail("Não posso terminar os testes sem esse metodo")
     }
+
 
 }
